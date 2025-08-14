@@ -1,0 +1,41 @@
+:root {
+  --brand: #5b73ff; /* primary */
+  --brand-2: #7f56d9; /* gradient */
+  --dark: #0f172a;
+}
+
+* { box-sizing: border-box; }
+
+body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: var(--dark); }
+
+.navbar-brand { letter-spacing: 0.5px; }
+.brand-dot { color: var(--brand); }
+
+.hero-card {
+  background: linear-gradient(135deg, rgba(91,115,255,0.08), rgba(127,86,217,0.08));
+  border: 1px solid rgba(15,23,42,0.06);
+  border-radius: 1.25rem;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, var(--brand), var(--brand-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.skill-badge {
+  display: inline-block;
+  padding: 0.35rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  line-height: 1;
+  border: 1px solid rgba(15,23,42,0.1);
+  background: #fff;
+  margin: 0.15rem 0.25rem 0 0;
+}
+
+.feature-list li { margin-bottom: .5rem; }
+.feature-list i { color: var(--brand); margin-right: .5rem; }
+
+footer { background: #fff; }
