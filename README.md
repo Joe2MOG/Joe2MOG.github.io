@@ -15,7 +15,7 @@ This repo is a **ready-to-deploy** GitHub Pages portfolio for **Albert Joseph (J
 
 ### 1) Create the repository
 - Go to GitHub → **New repository**.
-- **Name** it exactly: `YOUR-USERNAME.github.io` (replace with your GitHub username).
+- **Name** it exactly: `Joe2MOG.github.io` (replace with your GitHub username).
 - Choose **Public**. Create repo.
 
 ### 2) Add the files
@@ -27,8 +27,8 @@ Option A — **Upload via the web** (easiest):
 Option B — **VS Code / Git**:
 ```bash
 # clone (replace with your username)
-git clone https://github.com/YOUR-USERNAME/YOUR-USERNAME.github.io
-cd YOUR-USERNAME.github.io
+git clone https://github.com/Joe2MOG/Joe2MOG.github.io
+cd Joe2MOG.github.io
 
 # copy the starter files into this folder, then:
 git add .
@@ -37,7 +37,7 @@ git push
 ```
 
 ### 3) Visit your site
-- Open: `https://YOUR-USERNAME.github.io`
+- Open: `https://Joe2MOG.github.io`
 
 ## Customize (Do This Next)
 
