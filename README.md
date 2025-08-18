@@ -1,6 +1,6 @@
 # Joe's GitHub Pages Portfolio (Starter)
 
-This repo is a **ready-to-deploy** GitHub Pages portfolio for **Albert Joseph (Joe)**.
+This repo is a **ready-to-deploy** GitHub Pages portfolio for **Albert Joseph**.
 
 ## What it includes (matches Week 13 requirements)
 
