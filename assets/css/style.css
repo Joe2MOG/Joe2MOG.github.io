@@ -1,41 +1,112 @@
-:root {
-  --brand: #5b73ff; /* primary */
-  --brand-2: #7f56d9; /* gradient */
-  --dark: #0f172a;
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
 }
 
-* { box-sizing: border-box; }
-
-body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: var(--dark); }
-
-.navbar-brand { letter-spacing: 0.5px; }
-.brand-dot { color: var(--brand); }
-
-.hero-card {
-  background: linear-gradient(135deg, rgba(91,115,255,0.08), rgba(127,86,217,0.08));
-  border: 1px solid rgba(15,23,42,0.06);
-  border-radius: 1.25rem;
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+.navbar-brand {
+  color: #2E7D32 !important;
+  font-weight: 700;
+}
+.brand-dot {
+  color: #0288D1;
+}
+.nav-link {
+  color: #333;
+  font-weight: 400;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: #0288D1;
+}
+.btn-primary {
+  background-color: #0288D1;
+  border-color: #0288D1;
+}
+.btn-primary:hover {
+  background-color: #026aa7;
+  border-color: #026aa7;
 }
 
+/* Header and text */
+h1, h2, h3, h4, h5, h6 {
+  color: #2E7D32;
+  font-weight: 700;
+}
 .text-gradient {
-  background: linear-gradient(90deg, var(--brand), var(--brand-2));
+  background: linear-gradient(90deg, #2E7D32, #0288D1);
   -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.lead {
+  color: #555;
+  font-weight: 400;
 }
 
+/* Skill badges */
 .skill-badge {
   display: inline-block;
-  padding: 0.35rem 0.6rem;
-  border-radius: 9999px;
-  font-size: 0.85rem;
-  line-height: 1;
-  border: 1px solid rgba(15,23,42,0.1);
-  background: #fff;
-  margin: 0.15rem 0.25rem 0 0;
+  background-color: #e8f5e9;
+  color: #2E7D32;
+  padding: 0.3rem 0.8rem;
+  margin: 0.2rem;
+  border-radius: 12px;
+  font-size: 0.9rem;
 }
 
-.feature-list li { margin-bottom: .5rem; }
-.feature-list i { color: var(--brand); margin-right: .5rem; }
+/* Cards */
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.card-title {
+  color: #2E7D32;
+}
+.card-text {
+  color: #555;
+}
 
-footer { background: #fff; }
+/* Footer */
+footer {
+  background-color: #fff;
+  border-top: 1px solid #e0e0e0;
+}
+.text-muted {
+  color: #666 !important;
+}
+.text-muted:hover {
+  color: #0288D1 !important;
+}
+
+/* Hero section (index page) */
+.hero-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.feature-list li {
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+.feature-list i {
+  color: #2E7D32;
+  margin-right: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  h1.display-5 {
+    font-size: 2rem;
+  }
+  .btn-lg {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}

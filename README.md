@@ -1,80 +1,61 @@
-# Joe's GitHub Pages Portfolio (Starter)
+Albert Joseph's Portfolio Website
+Overview
+This is the personal portfolio website of Albert Joseph, a backend developer and tech entrepreneur dedicated to driving job creation across Africa through innovative software solutions. Built with HTML, CSS (Bootstrap), and JavaScript, the site showcases my technical skills, projects, and entrepreneurial vision, hosted on GitHub Pages at https://Joe2MOG.github.io.
+Features
 
-This repo is a **ready-to-deploy** GitHub Pages portfolio for **Albert Joseph**.
+Branding: Reflects my mission of "Empowering Africa through tech-driven job creation" with a green-blue color scheme (#2E7D32, #0288D1) and Roboto font for a modern, professional look.
+Pages:
+Home (index.html): Introduces my identity as a backend developer and tech entrepreneur, with a profile photo, tagline, and links to projects and bio.
+Bio (bio.html): Details my background in Electrical and Electronic Engineering, software engineering skills (Python, Django, SQL), and experience running a poultry startup in Nigeria.
+Portfolio (portfolio.html): Showcases my individual projects and Month 2 team project (with embedded YouTube video and Google Drive slide deck), plus a downloadable portfolio PDF.
+Elevator Pitch (pitch.html): Features an embedded YouTube video outlining my vision for tech-driven economic growth in Africa.
 
-## What it includes (matches Week 13 requirements)
 
-- **Main page** with your **name**, **tagline**, and links to:
-  - `bio.html` (Your bio)
-  - `portfolio.html` (Your portfolio & team pitch links)
-  - `pitch.html` (Elevator pitch placeholder — video comes later in Week 15)
-- **Skills** badges to showcase your backend stack
-- **Contact** link (email) + placeholders for GitHub & LinkedIn
+Responsive Design: Built with Bootstrap for mobile-friendly layouts.
+Professional Elements: Includes a profile photo, favicon, and consistent branding across all pages.
 
-## Quick Start (Deploy in Minutes)
+Project Structure
+Joe2MOG.github.io/
+├── assets/
+│   ├── css/
+│   │   └── style.css         # Custom styles with green-blue palette and Roboto font
+│   ├── js/
+│   │   └── main.js          # JavaScript for dynamic footer year
+│   ├── profile-photo.jpg    # Professional headshot
+│   ├── portfolio.pdf        # PDF with team project links (Week 14 requirement)
+│   └── favicon.ico          # Website favicon
+├── index.html               # Home page
+├── bio.html                 # Biography page
+├── portfolio.html           # Portfolio page with projects
+├── pitch.html               # Elevator pitch page with video
+└── README.md                # Project documentation
 
-### 1) Create the repository
-- Go to GitHub → **New repository**.
-- **Name** it exactly: `Joe2MOG.github.io` (replace with your GitHub username).
-- Choose **Public**. Create repo.
+Setup and Deployment
 
-### 2) Add the files
-Option A — **Upload via the web** (easiest):
-- Click **Add file → Upload files**.
-- Drag-and-drop all files/folders from this starter into your repo.
-- **Commit**.
+Clone the Repository:git clone https://github.com/Joe2MOG/Joe2MOG.github.io.git
 
-Option B — **VS Code / Git**:
-```bash
-# clone (replace with your username)
-git clone https://github.com/Joe2MOG/Joe2MOG.github.io
-cd Joe2MOG.github.io
 
-# copy the starter files into this folder, then:
-git add .
-git commit -m "Add starter portfolio"
-git push
-```
+Serve Locally:Use a local server (e.g., VS Code Live Server) to preview the site.
+Deploy to GitHub Pages:
+Push changes to the main branch.
+GitHub Pages hosts the site at https://Joe2MOG.github.io.
 
-### 3) Visit your site
-- Open: `https://Joe2MOG.github.io`
 
-## Customize (Do This Next)
 
-Open these files and edit placeholders:
+Technologies Used
 
-- `index.html`
-  - Change **name** and **tagline**.
-  - Update **Featured Work** links.
-- `bio.html`
-  - Replace the bio text with your Week 12 bio.
-  - Update GitHub + LinkedIn URLs.
-- `portfolio.html`
-  - Add your **portfolio PDF** to `assets/portfolio.pdf` OR replace the button link with Google Slides.
-  - Add links for your **Team Pitch Video** and **Team Slides**.
-  - (Optional) Embed your slides by putting your **Google Slides embed URL** into the iframe.
-- `pitch.html`
-  - Leave as a placeholder for Week 13.
-  - **Week 15**: Embed your video — replace the `about:blank` with your **YouTube/Drive embed URL**.
+HTML5: Structure and content.
+CSS3/Bootstrap 5: Styling and responsive design.
+JavaScript: Dynamic footer year.
+Google Fonts: Roboto font for typography.
+Font Awesome: Icons for navigation and contact links.
+LaTeX: Compiled portfolio.pdf with team project links.
 
-## How to embed a YouTube video
+Contact
 
-Replace the `iframe` in `pitch.html` with:
+Email: albertjoseph08066227697@gmail.com
+GitHub: Joe2MOG
+LinkedIn: josephalbet
 
-```html
-<iframe
-  src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-  title="Elevator Pitch"
-  allowfullscreen
-></iframe>
-```
-
-## How to embed a Google Slides deck
-
-Publish your Slides to the web (File → Share → Publish to web) and copy the **Embed** link (looks like `/embed?start=false...`). Replace the `iframe src` in `portfolio.html` with that URL.
-
-## Notes
-
-- This starter uses **Bootstrap 5** + a small custom CSS file for a clean, modern look.
-- You can add more pages or sections anytime.
-- Everything is **static** and loads fast on GitHub Pages.
+License
+© 2025 Albert Joseph. All rights reserved.
