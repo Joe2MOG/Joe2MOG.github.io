@@ -18,12 +18,13 @@ body {
   color: #0288D1;
 }
 .nav-link {
-  color: #333;
+  color: #F5F5F5 !important;
   font-weight: 400;
+  font-size: 1.1em;
 }
 .nav-link:hover,
 .nav-link.active {
-  color: #0288D1;
+  color: #0288D1 !important;
 }
 .btn-primary {
   background-color: #0288D1;
@@ -42,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 .text-gradient {
   background: linear-gradient(90deg, #2E7D32, #0288D1);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .lead {
@@ -65,6 +67,11 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, border 0.2s ease;
+}
+.card:hover {
+  transform: scale(1.03);
+  border: 1px solid #0288D1;
 }
 .card-title {
   color: #2E7D32;
@@ -108,5 +115,8 @@ footer {
   .btn-lg {
     font-size: 1rem;
     padding: 0.5rem 1rem;
+  }
+  .nav-link {
+    font-size: 1em;
   }
 }
