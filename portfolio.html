@@ -38,8 +38,15 @@
 </nav>
 
 <header class="container py-5">
-  <h1 class="fw-bold mb-3">My Portfolio</h1>
-  <p class="lead text-muted">A curated selection of backend development work and team projects, showcasing skills in Python, Django, SQL, and more.</p>
+  <div class="row align-items-center g-4">
+    <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+      <img src="assets/profile-photo.jpg" alt="Albert Joseph's profile photo" class="img-fluid rounded-circle shadow-sm" style="max-width: 200px; height: auto;">
+    </div>
+    <div class="col-lg-9 col-md-8">
+      <h1 class="fw-bold mb-3">My Portfolio</h1>
+      <p class="lead text-muted">A curated selection of backend development work and team projects, showcasing skills in Python, Django, SQL, and more.</p>
+    </div>
+  </div>
 </header>
 
 <section class="container pb-5">
@@ -98,4 +105,31 @@
         <div class="card-body">
           <h3 class="h5 card-title">Django LearnLab</h3>
           <p class="card-text text-muted">Practice repository for Django models, ORM queries, and admin customization.</p>
-          <ul class="small text-muted mb-3
+          <ul class="small text-muted mb-3">
+            <li>Custom model fields</li>
+            <li>Admin panel tweaks</li>
+            <li>Data migrations</li>
+          </ul>
+          <a class="btn btn-sm btn-primary" href="https://github.com/Joe2MOG/Alx_DjangoLearnLab" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="border-top mt-5 py-4">
+  <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+    <div class="text-muted small">© <span id="year"></span> Albert Joseph — All rights reserved.</div>
+    <div class="d-flex gap-3">
+      <a class="text-muted" href="https://github.com/Joe2MOG" target="_blank" rel="noopener" aria-label="GitHub Profile"><i class="fa-brands fa-github fa-lg"></i></a>
+      <a class="text-muted" href="https://www.linkedin.com/in/josephalbet" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+      <a class="text-muted" href="mailto:albertjoseph08066227697@gmail.com"><i class="fa-solid fa-envelope fa-lg"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
